@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reselling Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chosen's Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Prodotti</a></li>
+                    <li><a href="#about">Chi siamo</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Benvenuto in Chosen's!</h2>
+            <p>Trova i prodotti più esclusivi ai migliori prezzi.</p>
+            <a href="#products" class="btn">Scopri i prodotti</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>I nostri prodotti</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/product1.jpg" alt="Prodotto 1">
+                    <h3>Prodotto 1</h3>
+                    <p>HOODIE.</p>
+                    <span class="price">€100</span>
+                    <button>Aggiungi al carrello</button>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Prodotto 2">
+                    <h3>Prodotto 2</h3>
+                    <p>Descrizione breve del prodotto 2.</p>
+                    <span class="price">€150</span>
+                    <button>Aggiungi al carrello</button>
+                </div>
+                <!-- Altri prodotti -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Chi siamo</h2>
+            <p>Siamo un team dedicato a offrire i migliori prodotti sul mercato del reselling. La nostra missione è soddisfare le esigenze dei nostri clienti con prodotti di alta qualità e un servizio impeccabile.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Messaggio</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Reselling Store. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
